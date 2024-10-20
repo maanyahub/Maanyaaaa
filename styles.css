@@ -1,0 +1,110 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #ff6f61;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #333;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Sections */
+.intro {
+    background-color: #ffe4e1;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.timeline, .passions, .dreams, .message {
+    margin: 50px 0;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline */
+.timeline-item {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timeline-item .date {
+    font-weight: bold;
+    color: #ff6f61;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 1rem;
+    color: #888;
+}
+
+footer p {
+    font-family: 'Great Vibes', cursive;
+    color: #ff6f61;
+}
+
+/* Cute Aesthetic Elements */
+.passion-item {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-left: 4px solid #ff6f61;
+    border-radius: 10px;
+}
+
+/* Typography Effects */
+#typewriter {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 10px;
+    background: #ffe4e1;
+    border: 2px solid #ff6f61;
+    border-radius: 10px;
+}
